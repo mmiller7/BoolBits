@@ -1,0 +1,5 @@
+BoolBits	KEYWORD1
+~BoolBits	KEYWORD1
+setBool	KEYWORD2
+getBool	KEYWORD2
+getAvgBool	KEYWORD2
