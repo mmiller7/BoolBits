@@ -8,6 +8,14 @@
  * byte myDataBits[ ((int) ((DATA_SIZE/8.0)+0.5)) ];
  *
  * Note: You will need to pass this array of bytes into the get/set functions 
+ *
+ * Also, you should probably initialize all the bits to a known value at start
+ * if you don't set them before reading.  Can save program memory with care.
+ * //Quickly bulk-init array to all zero's
+ * for(int x=0; x < ((int) ((DATA_SIZE/8.0)+0.5)); x++)
+ * {
+ *   myDataBits[x]=0;
+ * }
  */
 
 #ifndef BoolBits_NoClass_h

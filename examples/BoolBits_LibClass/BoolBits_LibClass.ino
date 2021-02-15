@@ -5,7 +5,7 @@
  * 
  * Expected compilatiton:
  * ----------------------
- * Sketch uses 2954 bytes (9%) of program storage space. Maximum is 32256 bytes.
+ * Sketch uses 3024 bytes (9%) of program storage space. Maximum is 32256 bytes.
  * Global variables use 280 bytes (13%) of dynamic memory, leaving 1768 bytes for local variables. Maximum is 2048 bytes.
  * 
  * 

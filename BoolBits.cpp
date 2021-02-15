@@ -23,6 +23,12 @@ BoolBits::BoolBits(int maxSize)
 {
 	int numBytes=(int) ((maxSize/8.0)+0.5);
 	bitStore = new byte[numBytes];
+
+	//Init array with zeros
+	for(int x=0; x < numBytes; x++)
+	{
+		bitStore[x]=0;
+	}
 }
 
 BoolBits::~BoolBits()
