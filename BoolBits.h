@@ -24,6 +24,7 @@ class BoolBits
 		void setBool(int pos, boolean value);
 		boolean getBool(int pos);
 		int getAvgBool(int startPos, int endPos);
+		float getFloatAvgBool(int startPos, int endPos);
 
 
 	private:

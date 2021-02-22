@@ -72,5 +72,18 @@ inline int getAvgBool(byte data[], int startPos, int endPos)
   return (sum * 100)/(endPos-startPos);
 }
 
+// Averages bits startPos (inclusive) thru endPos (exclusive)
+inline float getFloatAvgBool(byte data[], int startPos, int endPos)
+{
+  int sum=0;
+  for(int x=startPos; x < endPos; x++)
+  {
+    if(getBool(data, x))
+    {
+      sum++;
+    }
+  }
+  return (sum * 100.0)/((float)(endPos-startPos));
+}
 
 #endif /* BoolBits_NoClass_h */
